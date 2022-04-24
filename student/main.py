@@ -7,14 +7,10 @@
     @Description: a student management system with mysql-DBMS to store student information
                     and manage student information
     @Date_end: 2022-4-24
-    @Version: 1.0.0
     @Python_version: 3.10.4
     @OS_version: Windows 10
     @mysql_version:8.0.28
     @Version: 1.0.0
-    @Python_version: 3.10.4
-    @OS_version: Windows 10
-    @mysql_version:8.0.28
     @License: MIT
 """
 
