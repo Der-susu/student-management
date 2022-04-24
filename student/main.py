@@ -59,7 +59,7 @@ sql_delete_name = "DELETE FROM students WHERE name = %s"
 try:
     # cursor.execute('DROP TABLE IF EXISTS students')
     sql = '''
-        CREATE table if not exists students(
+        CREATE TABLE IF NOT EXISTS students(
         id INT(2)  NOT NULL,
         name VARCHAR (10) NOT NULL,
         age INT NOT NULL ,
