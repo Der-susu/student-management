@@ -24,7 +24,7 @@
 
 ## 赞助  
 - 您的赞助是对笔者最大的鼓励与支持  
-![sponsor-QRcode](./images/5119D4B90F47C4B706737C4E8BE28C7D)
+![sponsor-QRcode](./images/5119D4B90F47C4B706737C4E8BE28C7D.jpg "赞助我")
 
 ## 交流
 - 如若您看后有若干意见或建议，欢迎大佬指正  
