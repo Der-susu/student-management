@@ -6,11 +6,12 @@
     @Email: qiu0089@foxmail.com
     @Description: a student management system with mysql-DBMS to store student information
                     and manage student information
+    @IDE: PyCharm Professional Edition 2021.3.3
     @Date_end: 2022-4-24
     @Python_version: 3.10.4
     @OS_version: Windows 10
     @mysql_version:8.0.28
-    @Version: 1.0.0
+    @Version: 1.0.1
     @License: MIT
 """
 
