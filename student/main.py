@@ -31,12 +31,12 @@ db1 = pymysql.connect(
     charset='utf8'
 )
 cursor1 = db1.cursor()
-# cursor1.execute('DROP DATABASE IF EXISTS test')
+cursor1.execute('DROP DATABASE IF EXISTS test')
 # 创建一个新的数据表 test
 cursor1.execute('CREATE DATABASE IF NOT EXISTS test')
 db1.close()
 # 如果数据表已经存在使用 execute() 方法删除表。
-# cursor.execute("DROP TABLE IF EXISTS test1")
+# cursor.execute("DROP TABLE IF EXISTS test")
 # 数据库连接
 db = pymysql.connect(
     host=host,
@@ -267,7 +267,7 @@ def delete():
             print("\n")
             # 是否删除
             option_del = input("是否删除该记录？(y/n)")
-            if option_del == 'y':
+            if option_del == 'y' or option_del == 'Y':
                 cursor.execute(sql_delete_id, num)
                 db.commit()
                 print("删除成功")
@@ -308,19 +308,19 @@ def delete():
                         print(data[row], end=" ")
                     print("\n")
                     option_del = input("确认删除？(y/n)")
-                    if option_del == 'y':
+                    if option_del == 'y' or option_del == 'Y':
                         cursor.execute(sql_delete_id, num)
                         db.commit()
                         print("删除成功")
                 elif option == '2':
                     option_del = input("是否全部删除？(y/n)")
-                    if option_del == 'y':
+                    if option_del == 'y' or option_del == 'Y':
                         cursor.execute(sql_delete_name, name)
                         db.commit()
                         print("删除成功")
             else:
                 option = input("是否删除该记录？(y/n)")
-                if option == 'y':
+                if option == 'y' or option == 'Y':
                     cursor.execute(sql_delete_name, name)
                     db.commit()
                     print("删除成功！")
